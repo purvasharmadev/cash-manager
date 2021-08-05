@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>cash register</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Cash Register Manager</h1>
+    <div class="container">
+      <label for="billAmt"> Bill Amount</label>
+      <br />
+      <input id="billAmt" placeholder="enter the bill amount" />
+      <br /><br />
+      <label for="recivedAmt">Recived amount</label>
+      <br />
+      <input id="recivedAmt" placeholder="enter the recived amount" />
+      <br /><br />
+      <button id="calNotes">Calculate notes</button>
+
+      <p id="error-msg"></p>
+    </div>
+    <div class="container">
+      <table class="change-table">
+        <tr>
+          <th>No. of notes</th>
+
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+        </tr>
+        <tr>
+          <th>Notes</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
