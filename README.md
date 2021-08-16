@@ -16,7 +16,7 @@
 
 ## Overview
 
-![screenshot](ss (2).png)
+![screenshot](ss(2).png)
 
 A Web-App built with Javascript. This app help the user by telling how can he/she return the change to the customer with minimum number of notes
 
